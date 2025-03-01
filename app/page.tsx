@@ -49,7 +49,7 @@ export default function Home() {
 
     const a = document.createElement("a")
     a.href = url
-    a.download = `${name.replace(/\s+/g, "-")}-favicon.svg`
+    a.download = `${name.replace(/\s+/g, "-")}_favicon.svg`
     document.body.appendChild(a)
     a.click()
     document.body.removeChild(a)
