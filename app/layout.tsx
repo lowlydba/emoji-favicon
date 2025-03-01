@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Emoji Favicon Library",
   description: "Search and download SVG favicons of Unicode emojis",
   icons: {
-    icon: "/favicon.svg"
+    icon: "./favicon.svg"
   }
 }
 

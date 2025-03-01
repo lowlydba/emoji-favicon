@@ -37,9 +37,8 @@ export default function Home() {
   const currentEmojis = filteredEmojis.slice(startIndex, endIndex)
 
   const generateEmojiSvg = (emoji: string) => {
-    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-      <rect width="100" height="100" fill="white"/>
-      <text x="50" y="50" fontFamily="sans-serif" fontSize="60" textAnchor="middle" dominantBaseline="central">${emoji}</text>
+    return `<svg xmlns="http://www.w3.org/2000/svg">
+      <text y="27" font-size="27">${emoji}</text>
     </svg>`
   }
 
