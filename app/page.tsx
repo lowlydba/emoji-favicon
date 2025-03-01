@@ -63,7 +63,7 @@ export default function Home() {
         <header className="mb-12 text-center">
           <h1 className="text-4xl font-bold mb-4 text-gray-900 dark:text-white">Unicode Emoji Favicon Library</h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-            Search and download SVG favicon files for all Unicode emoji symbols
+            Unicode Emoji Favicon Library
           </p>
 
           <div className="relative max-w-md mx-auto">
@@ -136,10 +136,9 @@ export default function Home() {
 
       <footer className="mt-16 py-6 border-t border-gray-200 dark:border-gray-800">
         <div className="container mx-auto px-4 text-center text-gray-500 dark:text-gray-400 text-sm">
-          <p>Unicode Emoji Favicon Library - Download SVG favicons for your projects</p>
+          <p><a href="https://www.github.com/lowlydba">@</a></p>
         </div>
       </footer>
     </main>
   )
 }
-
