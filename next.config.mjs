@@ -7,6 +7,7 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: "/emoji-favicon",
   output: "export",
   eslint: {
     ignoreDuringBuilds: true,
