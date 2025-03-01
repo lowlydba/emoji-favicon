@@ -93,7 +93,7 @@ export default function Home() {
               <div className="flex flex-col items-center">
                 <div className="text-5xl mb-2">{emojiItem.emoji}</div>
                 <h3 className="text-sm font-medium text-center text-gray-700 dark:text-gray-300 line-clamp-1">
-                  {emojiItem.name}
+                  {emojiItem.name.replace(/_/g, " ")}
                 </h3>
               </div>
             </Card>
